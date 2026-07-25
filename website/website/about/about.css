@@ -1,0 +1,39 @@
+body,
+body * 
+{
+    font-family: "Griffy", cursive !important;
+    background-color:rgba(129, 126, 126, 0.002)
+
+}
+
+page-bg { background-color: #beb0ac; }
+
+.About-me-box
+{
+    display:flex;
+
+}
+
+.About-me-box img
+{
+ width: 300px;
+ height:auto;
+ border-radius: 50%;
+ object-fit: cover;
+ display:block;
+}
+
+.Buttons
+{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+    height: 10vh; 
+    size:200px
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 20px 
+}

@@ -1,0 +1,94 @@
+body,
+body * 
+{
+    font-family: "Grif;fy", cursive !important;
+    background-color:rgba(129, 126, 126, 0.002)
+
+}
+
+.Intro
+{
+    text-align: center;
+}
+
+.Header
+{
+    text-align: center ;
+    width: 100%;
+}
+
+
+
+
+body
+{
+    background-color:rgba(129, 126, 126, 0.002)
+
+}
+
+.text-ex
+{
+    line-height: 20px; 
+}
+
+.popup 
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content 
+{
+    position: relative;
+
+    width: 70%;
+    height: 70%;
+
+    margin: 5% auto;
+
+    background: white;
+
+    border-radius: 10px;
+
+    padding: 20px;
+}
+
+iframe 
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.close
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Buttons
+{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    align-items:center;
+    height: 100vh; 
+    size:200px
+}
+
+button 
+{
+  padding: 20px 40px;
+  font-size: 20px 
+}
